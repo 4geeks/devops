@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-supervisorctl reread
-supervisorctl update
-supervisorctl restart all
-service nginx restart
+sudo supervisorctl reread
+sudo supervisorctl update
+sudo supervisorctl restart all
+sudo service nginx restart
