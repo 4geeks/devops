@@ -23,4 +23,5 @@ server {
     }
 }
 EOM
+sudo ln -s /etc/nginx/sites-available/express.conf /etc/nginx/sites-enabled/express.conf
 sudo service nginx restart
