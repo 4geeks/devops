@@ -7,7 +7,7 @@ fi
 
 sudo apt-get install -y nginx
 sudo touch /etc/nginx/sites-available/express.conf
-/etc/nginx/sites-available/express.conf <<- EOM
+cat > /etc/nginx/sites-available/express.conf <<- EOM
 server {
     listen 80;
     listen [::]:80;
