@@ -13,7 +13,7 @@ server {
     listen [::]:80;
     server_name $1;
     #return 301 https://app.ezonseller.com$request_uri;
-    location = /favicon.ico { access_log off; log_not_found off; }
+    location = /favicon.ico { access_Flog off; log_not_found off; }
     location / {
         include proxy_params;
         proxy_pass http://localhost:8000;
